@@ -1,0 +1,190 @@
+.contact-top {
+  position: relative;
+  background-image: url("../images/purchase.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  display: table;
+}
+
+.contact-top .contact-relative {
+  position: absolute;
+  width: 100%;
+}
+
+.contact-top .contact-content {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 570px) {
+  .contact-top .contact-content {
+    width: 100%;
+  }
+}
+
+.contact-top .contact-content .contact-top-text {
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.contact-top .contact-content .contact-top-text a {
+  color: white;
+  font-weight: 600;
+}
+
+.contact-top .contact-content .contact-title {
+  letter-spacing: -1px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 45px;
+  font-size: 50px;
+  line-height: 55px;
+}
+
+.contact-top .contact-content .contact-btn {
+  font-size: 13px;
+  border-radius: 50px;
+  padding: 12px 38px;
+  color: #000;
+  font-weight: 600;
+  background-color: #fff;
+  margin: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact-top .contact-content .contact-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.contact-top .contact-content .contact-btn:hover .fa-solid {
+  color: white;
+}
+
+.contact-top .contact-content .contact-btn .fa-solid {
+  margin-left: 7px;
+  color: #ff214f;
+}
+
+.contact {
+  margin-top: 50px;
+  margin-top: 40px;
+}
+
+.contact .contact-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media screen and (max-width: 1230px) {
+  .contact .contact-items {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contact .contact-items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.contact .contact-items .contact-item {
+  padding: 20px;
+}
+
+.contact .contact-items .contact-item:first-child {
+  padding-right: 20px;
+}
+
+.contact .contact-items .contact-item .contact-box {
+  padding: 40px 0px 35px 40px;
+  border-radius: 10px;
+  background-color: #F9F9F9;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact .contact-items .contact-item .contact-box .box-icon {
+  margin-right: 15px;
+  color: #ff214f;
+}
+
+.contact .contact-items .contact-item .contact-box .box-text {
+  font-size: 18px;
+  margin-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+}
+
+.contact .contact-items .contact-item .contact-box .box-text .box-title {
+  font-weight: 600;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.contact .contact-items .contact-item .contact-box .box-text span {
+  color: #6f6f6f;
+  width: 90%;
+  font-size: 15px;
+}
+
+.contact .contact-items .contact-item .contact-title {
+  font-size: 54px;
+  margin-bottom: 35px;
+  color: black;
+  font-weight: 700;
+}
+
+.contact .contact-items .contact-item button {
+  font-size: 13px;
+  border-radius: 50px;
+  padding: 12px 38px;
+  color: #000;
+  font-weight: 600;
+  background-color: #ff214f;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: 2px solid #ff214f;
+}
+
+.contact .contact-items .contact-item button:hover {
+  color: black;
+  background-color: white;
+}
+
+.contact .contact-items .contact-item button:hover .fa-solid {
+  color: #ff214f;
+}
+
+.contact .contact-items .contact-item button .fa-solid {
+  margin-left: 7px;
+  color: #fff;
+}
+/*# sourceMappingURL=contact.css.map */
